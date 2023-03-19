@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8"/>
-    <title>Angel's Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- I didnt know how to make modify a able using html so I looked up a css tutorial instead -->
+    <meta charset="utf-8"/> 
+    <title>Treasure Town Simulator</title> <!--This what shows up in tab in the browser-->
 </head>
 <body>
-    <center><h1>Welcome to Treasure Town!</h1></center>
+    <center><h1>Welcome to Treasure Town!</h1></center><!--And this is what shows on the front page-->
     
-    <center><IMG SRC="IMAGES/TREASURE_TOWN_TDS.PNG" height="300"/></center>
-    <a href="AboutWebsite.html">About Website</a>
-    <p><h3>What can you do here?</h3></p>
+    <center><IMG SRC="IMAGES/TREASURE_TOWN_TDS.PNG" height="300"/></center><!--My image wouldnt show up unless I capitalized all the letters, idk why-->
+    <a href="AboutWebsite.html">About Website</a><!--First link, redirects to the AboutWebsite page with some info-->
+    <p><h3>What can you do here?</h3></p><!--My second header, this one is smaller in size-->
     <p>Great question! In this town, based on the same location from one of my favorite video games, you can do many things that will help you on your explorations. You can:</p>
-    <ul>
+    <ul><!--The required list element-->
         <li>Buy Items at Keckleon Market</li>
         <li>Store Items at Kangaskhan Storage</li>
         <li>Learn Moves at Elective Link Shop</li>
@@ -20,38 +21,57 @@
         <li>Train at Marowak Dojo</li>
         <li>And Unlock Boxes at Xatu Appraisal</li>
     </ul>
-    <p>Feel free to prepare before you head out on your next adventure. Have fun!</p>
-    <form>
+    <p>It seems some shops are closed at the moment... But the basic necessities are open, so feel free to prepare before you head out on your next adventure. Have fun!</p>
+    <form><!--The required form-->
         <label for="shop-input">"Welcome to Keckleon Market! What Would You Like?"</label>
         <select id="shop-input">
-            <option value="0"></option>
+            <option value="0"></option><!--Didnt know how to make a placeholder, so I just left the first option blank-->
             <option value="1">Oran Berry(Heals You)</option>
             <option value="2">Reviver Seed(Revives You)</option>
             <option value="3">Heal Seed(Cures Illness)</option>
             <option value="4">Petrify Orb(Stuns Enemies)</option>
         </select>
     </form>
-    <center><IMG SRC="IMAGES/KECLEON_SHOP_ARTWORK_PSMD.png"/></center>
+    <center><IMG SRC="IMAGES/KECLEON_SHOP_ARTWORK_PSMD.png"/></center><!--@nd image-->
     <center><p>"Thank you! Come again soon!"</p></center>
     <p></p>
     <p>Welcome...to Duskull Bank. Here you can safely store and...withdraw money. What would you like to do?"</p>
-    <form>
+    <form><!--Another form, this one uses text and i knew how to do a placeholder here-->
         <label for="Duskull Bank">Deposit</label><input type="text" name="name" id="bank" placeholder="How much..."/>
         <label for="Duskull Bank">Withdraw</label><input type="text" name="name" id="bank" placeholder="How much..."/>
     </form>
-    <center><IMG SRC="IMAGES/tumblr_0818a87b9922ec0ca55194f600442349_a99b2695_540.webp"/></center>
+    <center><IMG SRC="IMAGES/tumblr_0818a87b9922ec0ca55194f600442349_a99b2695_540.webp"/></center><!--3rd required image-->
     <center><p>"Many thanks... your money will be safe with me. Maybe..."</p></center>
     
-    <table border="1" cellpadding="10">
-        <tr>
-          <td>Row 1, Column 1</td>
-          <td>Row 1, Column 2</td>
+    <p>Hello, there! Welcome to Kangaskhan storage. Here you can store items from your bag into storage and vice-versa.</p>
+    <table bgcolor="#cf8c2f"><!--required table element-->
+        <tr><!--Here i used css to modify the table and add some flare :)-->
+          <td>In Bag</td>
+          <td>In Storage</td>
         </tr>
         <tr>
-          <td>Row 2, Column 1</td>
-          <td>Row 2, Column 2</td>
+          <td>Oran Berry: 4</td>
+          <td>Oran Berry: 3</td>
         </tr>
+        <tr>
+            <td>Reviver Seed: 6</td>
+            <td>Reviver Seed: 2</td>
+          </tr>
+          <tr>
+            <td>Petrify Orb: 2</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Relic Fragment: 1</td>
+            <td></td>
+          </tr>
       </table>
+      <center><IMG SRC="IMAGES/15688.PNG"/></center>
+      <center><p>"Have a good day, sweetie!"</p></center>
+      <p>All finished? Excellent! Get out there and explore some dungeons! Maybe one day you'll be as strong as the greatest exploration team of all time...(click the image!!)</p>
+      <a href="https://imgur.com/a/D1QTLmp"><!--last required link, but in image form-->
+        <center><IMG SRC="IMAGES/20230318_194345.JPG" width="500" height="500"></center>
+      </a>
 
 </body>
 </html>
