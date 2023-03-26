@@ -4,14 +4,25 @@
     <link rel="stylesheet" type="text/css" href="styles.css"> <!-- I didnt know how to make modify a able using html so I looked up a css tutorial instead -->
     <meta charset="utf-8"/> 
     <title>Treasure Town Simulator</title> <!--This what shows up in tab in the browser-->
+    <style>
+       img {
+        border: 4px solid black;
+      }
+    </style>
 </head>
 <body>
-    <center><h1>Welcome to Treasure Town!</h1></center><!--And this is what shows on the front page-->
+    <div id="header">
+      <center><h1>Welcome to Treasure Town!</h1></center>
+    </div><!--And this is what shows on the front page-->
     
-    <center><IMG SRC="IMAGES/TREASURE_TOWN_TDS.PNG" height="300"/></center><!--My image wouldnt show up unless I capitalized all the letters, idk why-->
+    <div>
+      <center><IMG SRC="IMAGES/TREASURE_TOWN_TDS.PNG" height="300"/></center>
+    </div><!--My image wouldnt show up unless I capitalized all the letters, idk why-->
     <a href="AboutWebsite.html">About Website</a><!--First link, redirects to the AboutWebsite page with some info-->
-    <p><h3>What can you do here?</h3></p><!--My second header, this one is smaller in size-->
-    <p>Great question! In this town, based on the same location from one of my favorite video games, you can do many things that will help you on your explorations. You can:</p>
+    <div id="header">
+      <h3>What can you do here?</h3>
+    </div><!--My second header, this one is smaller in size-->
+    <p class="gentextbox">Great question! In this town, based on the same location from one of my favorite video games, you can do many things that will help you on your explorations. You can:</p>
     <ul><!--The required list element-->
         <li>Buy Items at Keckleon Market</li>
         <li>Store Items at Kangaskhan Storage</li>
@@ -21,8 +32,9 @@
         <li>Train at Marowak Dojo</li>
         <li>And Unlock Boxes at Xatu Appraisal</li>
     </ul>
-    <p>It seems some shops are closed at the moment... But the basic necessities are open, so feel free to prepare before you head out on your next adventure. Have fun!</p>
-    <form><!--The required form-->
+    
+    <p class="gentextbox">It seems some shops are closed at the moment... But the basic necessities are open, so feel free to prepare before you head out on your next adventure. Have fun!</p></p>
+    <form class="forms"><!--The required form-->
         <label for="shop-input">"Welcome to Keckleon Market! What Would You Like?"</label>
         <select id="shop-input">
             <option value="0"></option><!--Didnt know how to make a placeholder, so I just left the first option blank-->
@@ -33,17 +45,19 @@
         </select>
     </form>
     <center><IMG SRC="IMAGES/KECLEON_SHOP_ARTWORK_PSMD.png"/></center><!--@nd image-->
-    <center><p>"Thank you! Come again soon!"</p></center>
+    <div class="container">
+      <p class="gentextbox">Thank you! Come again soon!"</p>
+      </div>
     <p></p>
-    <p>Welcome...to Duskull Bank. Here you can safely store and...withdraw money. What would you like to do?"</p>
+    <p class="gentextbox">Welcome...to Duskull Bank. Here you can safely store and...withdraw money. What would you like to do?"</p>
     <form><!--Another form, this one uses text and i knew how to do a placeholder here-->
         <label for="Duskull Bank">Deposit</label><input type="text" name="name" id="bank" placeholder="How much..."/>
         <label for="Duskull Bank">Withdraw</label><input type="text" name="name" id="bank" placeholder="How much..."/>
     </form>
     <center><IMG SRC="IMAGES/tumblr_0818a87b9922ec0ca55194f600442349_a99b2695_540.webp"/></center><!--3rd required image-->
-    <center><p>"Many thanks... your money will be safe with me. Maybe..."</p></center>
+    <center><p class="gentextbox">"Many thanks... your money will be safe with me. Maybe..."</p></center>
     
-    <p>Hello, there! Welcome to Kangaskhan storage. Here you can store items from your bag into storage and vice-versa.</p>
+    <p class="gentextbox">Hello, there! Welcome to Kangaskhan storage. Here you can store items from your bag into storage and vice-versa.</p>
     <table bgcolor="#cf8c2f"><!--required table element-->
         <tr><!--Here i used css to modify the table and add some flare :)-->
           <td>In Bag</td>
@@ -67,9 +81,9 @@
           </tr>
       </table>
       <center><IMG SRC="IMAGES/15688.PNG"/></center>
-      <center><p>"Have a good day, sweetie!"</p></center>
-      <p>All finished? Excellent! Get out there and explore some dungeons! Maybe one day you'll be as strong as the greatest exploration team of all time...</p>
-      <center><a href="https://imgur.com/a/D1QTLmp">The Big 3<!--last required link, but in image form-->
+      <center><p class="gentextbox">"Have a good day, sweetie!"</p></center>
+      <p class="gentextbox">All finished? Excellent! Get out there and explore some dungeons! Maybe one day you'll be as strong as the greatest exploration team of all time...</p>
+      <center><a href="https://imgur.com/a/D1QTLmp">The Big 3<!--last required link, links to image-->
       </a></center>
 
 </body>

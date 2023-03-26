@@ -1,3 +1,100 @@
+.gentextbox {
+  background-color:rgb(33, 37, 42); /* Changing background color */
+    font-weight: bold;
+    border-radius: 10px; /* Making border radius */
+    width: auto; /* Making auto-sizable width */
+    height: auto; /* Making auto-sizable height */
+    padding: 5px 30px 5px 30px;
+    font-family:sans-serif; /* Making space around letters */
+    font-size: medium;/* Changing font size */
+    color: white
+}
+
+ul {
+  background-color:rgb(33, 37, 42); /* Changing background color */
+    font-weight: bold;
+    border-radius: 10px; /* Making border radius */
+    width: auto; /* Making auto-sizable width */
+    height: auto; /* Making auto-sizable height */
+    padding: 5px 30px 5px 30px;
+    font-family:sans-serif; /* Making space around letters */
+    font-size: medium;/* Changing font size */
+    color: white
+}
+
+select {
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(33, 37, 42);
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+}
+
+
+option {
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+}
+
+input[type="Deposit"],
+input[type="Withdraw"], {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+label {
+  background-color:rgb(33, 37, 42); /* Changing background color */
+  font-weight: bold;
+  border-radius: 10px; /* Making border radius */
+  width: auto; /* Making auto-sizable width */
+  height: auto; /* Making auto-sizable height */
+  padding: 5px 30px 5px 30px;
+  font-family:sans-serif; /* Making space around letters */
+  font-size: medium;/* Changing font size */
+  color: white
+}
+
+a {
+  background-color:rgb(33, 37, 42); /* Changing background color */
+  font-weight: bold;
+  border-radius: 10px; /* Making border radius */
+  width: auto; /* Making auto-sizable width */
+  height: auto; /* Making auto-sizable height */
+  padding: 5px 30px 5px 30px;
+  font-family:sans-serif; /* Making space around letters */
+  font-size: medium;/* Changing font size */
+  color: white
+}
+
+
+
+#header {
+  color: #d67e0a;
+  padding: 10px;
+}
+#img {
+  border: 10px rgb(200, 29, 29)
+}
+
+body {
+  background-color: lightskyblue;
+}
+
+
+
 table {
     border-collapse: collapse;
     width: 75%;
